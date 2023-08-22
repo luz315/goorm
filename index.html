@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatiable" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>소라님의 넷플릭스</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="nav" id="nav">
+        <img src="images/netflix-logo.png" alt="" class="nav__logo">
+        <img src="images/netflix-avatar.png" alt="" class="nav__avatar">
+    </div>
+
+
+
+
+    <!--header-->
+    <div class="banner">
+        <div class="banner__contents">
+            <h1 class="banner__title">노팅힐</h1>
+            <div class="banner__buttons">
+                <button class="banner__button">재생</button>
+                <button class="banner__button">내가 찜한 콘텐츠</button>
+            </div>
+
+            <div class="banner__info">
+                1998  |  <button class="a-text">12+</button>  | 1시간 43분 | 드라마 장르
+            </div>
+
+            <div class="banner__description">
+                
+                자신의 인생 자체가 수백만 명의 즐거움을 위한 리얼리티 쇼였다는 
+                사실을 깨달은 보험사 직원. 의식하지 못하는 사이 스타가 되어버린 
+                그는 이제 어떻게 행동해야 할지 고심한다.
+            </div>
+
+            <div class="banner__description">
+                주연: 짐 캐리, 에드 해리스, 로라 리니
+            
+            </div>
+
+        
+        </div>
+        <div class="banner--fadeBottom"></div>
+    </div>
+
+    <!-- list -->>
+    <div class="row">
+        <h2>지금 뜨는 콘텐츠</h2>
+        <div class="row__posters">
+          <img src="images/large-movie1.jpg" alt="" class="row__poster row__posterLarge" />
+          <img src="images/large-movie2.jpg" alt="" class="row__poster row__posterLarge" />
+          <img src="images/large-movie3.jpg" alt="" class="row__poster row__posterLarge" />
+          <img src="images/large-movie4.jpg" alt="" class="row__poster row__posterLarge" />
+          <img src="images/large-movie5.jpg" alt="" class="row__poster row__posterLarge" />
+          <img src="images/large-movie6.jpg" alt="" class="row__poster row__posterLarge" />
+          <img src="images/large-movie7.jpg" alt="" class="row__poster row__posterLarge" />
+          <img src="images/large-movie8.jpg" alt="" class="row__poster row__posterLarge" />
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>나는 솔로와 비슷한 콘텐츠</h2>
+        <div class="row__posters">
+         <img src="images/small-movie1.jpg" alt="" class="row__poster" />
+         <img src="images/small-movie2.jpg" alt="" class="row__poster" />
+         <img src="images/small-movie3.jpg" alt="" class="row__poster" />
+         <img src="images/small-movie4.jpg" alt="" class="row__poster" />
+         <img src="images/small-movie5.jpg" alt="" class="row__poster" />
+         <img src="images/small-movie6.jpg" alt="" class="row__poster" />
+         <img src="images/small-movie7.jpg" alt="" class="row__poster" />
+         <img src="images/small-movie8.jpg" alt="" class="row__poster" />
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>어워드 수상 한국 시리즈</h2>
+        <div class="row__posters">
+         <img src="images/a1.jpg" alt="" class="row__poster" />
+         <img src="images/a2.jpg" alt="" class="row__poster" />
+         <img src="images/a3.jpg" alt="" class="row__poster" />
+         <img src="images/a4.jpg" alt="" class="row__poster" />
+         <img src="images/a5.jpg" alt="" class="row__poster" />
+         <img src="images/a6.jpg" alt="" class="row__poster" />
+         <img src="images/a7.jpg" alt="" class="row__poster" />
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>애니</h2>
+        <div class="row__posters">
+         <img src="images/b1.jpg" alt="" class="row__poster" />
+         <img src="images/b2.jpg" alt="" class="row__poster" />
+         <img src="images/b3.jpg" alt="" class="row__poster" />
+         <img src="images/b4.jpg" alt="" class="row__poster" />
+         <img src="images/b5.jpg" alt="" class="row__poster" />
+         <img src="images/b6.jpg" alt="" class="row__poster" />
+         <img src="images/b7.jpg" alt="" class="row__poster" />
+        </div>
+    </div>
+
+   
+
+    <script>
+        const nav = document.getElementById("nav");
+
+        window.addEventListener('scroll', () => {
+            if(window.scrollY >=100) {
+                nav.classList.add('nav__black');
+            } else {
+                nav.classList.remove('nav__black');
+            }
+        })
+    </script>
+    
+</body>
+</html>
