@@ -1,65 +1,78 @@
-## ◇ 구름톤 트레이닝 2번째 과제입니다◇
-###   🪄주제: 자바스크립트를 이용해 Todo 앱 만들기
+## ◇ 구름톤 트레이닝 1번째 과제입니다◇
+###   🪄주제: HTML, CSS를 이용해 넷플릭스 홈페이지 만들기
 <br/> 
 
 ###   🪄필요기능
-       - 변수명 명확히 표기, 함수는 최소한의 단위로 나누기
-       - 페이지 새로고침해도 데이터 지속 (localStorage 이용)
+       - Flex-Box를 이용해 이미지 나열
+       - 영화에 마우스로 호버하면 영화 이미지 크기 확대
 
 
 ### 🪄효과 및 기능 구현
 <br/> 
 
 
-### ◎ 앱화면 꾸미기
-<br/> 
+### ◎ header
 
-<img width="893" alt="image" src="https://github.com/luz315/goorm/assets/125282732/c3e40646-11de-48d4-9ce1-7c7cf1ec94df">
+<img width="893" alt="image" src="https://github.com/luz315/goorm/assets/125282732/27f42816-7524-4d41-a097-f597f675e83f">
 <br/><br/>  
 
 <div>
 
-1. container (styles.css)
-   - 바탕화면 그라데이션으로 꾸미기
+1. banner__titile 클래스 
+   - 타이틀 제목 "노팅힐" 지정
+   - 버튼 만들기 : [재생], [내가 찜한 콘텐츠]
+   - 재생
 
-2. todo (styles.css) 
-   - 흰색 배경에 앱 화면 구현
- 
-3. todo h2 (styles.css) 
-   - Todo 앱 아이콘, "Todos 앱" 글자 넣기 
+2. banner__info 클래스
+   - 영화 연도
+   - 연령 제한
+   - 영화 시간
+   - 장르
 
-4. row 클래스
-   - 할 일 입력창 만들기 (styles.css - input)
-   - [추가] 버튼 만들기 (styles.css - button)
+3. banner__description 클래스
+   - 메인 포스터를 넘어가지 않는 선에서 크기 조정
+   - 줄거리 내용
+   - 등장인물  
 
-5. ul li (style.css)
-   - 할 일 마다 클릭할 수 있는 아이콘 넣기 (checked.png & unchecked.png)
-   - line-through 사용해서 아이콘 뿐만 아니라 할 일을 완료했다는 표시 추가하기
-   - 맨 끝에 삽입된 x 문자에 호버 기능 구현
-<br/>
-   <img width="440" alt="image" src="https://github.com/luz315/goorm/assets/125282732/144c83c6-887a-4c72-80e5-f3f9b446fe7d">
-<br/><br/> 
-   
+4. banner--fadeBottom 속성
+   - 메인 포스터 하단 부분을 그라데이션 처리
 </div>
 <br/>  
 
-### ◎ script.js (Todo 기능 구현)
-
-<br/>
+### ◎ list
+<img width="944" alt="image" src="https://github.com/luz315/goorm/assets/125282732/2db966ef-8829-40f9-a6a3-628511a7a766">
+<img width="943" alt="image" src="https://github.com/luz315/goorm/assets/125282732/9051fca1-e095-4fbd-91fc-c3ff46d7cb6e">
+<br/><br/>
 <div>
 
-1. 아무것도 입력하지 않고 버튼 클릭했을 경우에 뜨는 경고창 기능 구현
-<br/>
-<img width="500" alt="image" src="https://github.com/luz315/goorm/assets/125282732/e8ef6903-45c8-499c-8aa5-9e912c897b58">
-<br/><br/><br/>
-2. 입력창에 할 일을 입력하면 등록되는 기능 구현
-<br/><br/>
-<img width="500" alt="image" src="https://github.com/luz315/goorm/assets/125282732/b618455c-c490-4d83-957b-7c50b33f6169">
-<br/><br/><br/>
-3. 할 일 끝마다 x 문자 넣기 (특수문자 \u00d7 사용)
-<br/><br/>
-4. checked 토글 만들기
-<br/><br/>
-5. x 문자 클릭하면 데이터 지워주는 기능 구현
-<br/><br/>
-6. localStorage와 saveData를 통해 새로고침되어도 데이터 유지해주는 기능 구현
+1. 이미지 정렬
+   - [포스터 참고 사이트 1](https://www.themoviedb.org/?language=ko-KR)
+   - [포스터 참고 사이트 2](https://www.wallpaperbetter.com/ko)
+   - Flex Box로 정렬
+   - [지금 뜨는 콘텐츠]와 나머지 list [어워즈 수상 한국 시리즈, 애니, 등등]의 이미지 크기에 차이를 둠
+ 
+2. 포스터 스크롤
+   - 스크롤 형태 숨기기 
+   - 배경은 고정된 상태에서 이미지 스크롤만 가능하게 설정 
+ 
+3. 포스터 호버
+   - [요즘 뜨는 콘텐츠] transform 조금 더 크게 확대
+   - posterLarge: scale(1.1)
+   - poster: scale(1.09)
+</div>
+<br/>  
+
+
+### ◎ etc
+<img width="894" alt="image" src="https://github.com/luz315/goorm/assets/125282732/6614c82f-b9d0-4ef3-87b7-b56ebcea8c7a">
+<img width="893" alt="image" src="https://github.com/luz315/goorm/assets/125282732/9f15e9e7-f16e-4efa-a00e-c3b156d499ab">
+<br/><br/>  
+<div>
+
+1. nav
+   - 상단 좌측에 넷플릭스 로고 넣기
+   - 상단 우측에 아바타 로고 넣기
+   - 스크롤 할 때 마다 검정색 띠 모양의 transition-timing-function 발생
+</div>
+
+
