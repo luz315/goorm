@@ -7,7 +7,7 @@
 ### #2. [자바스크립트 이용해서 Todo 앱 만들기](https://github.com/luz315/goorm/tree/main/%232)
 <br>
 
-### #3. 자바스크립트를 이용해서 github finder 앱 만들기
+### #3. [자바스크립트를 이용해서 github finder 앱 만들기](https://github.com/luz315/goorm/tree/main/%233)
 <br>
 
 ### #4. 자바스크립트를 이용해서 Spread Sheet 앱 만들기
