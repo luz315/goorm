@@ -34,16 +34,23 @@
      <br/><br/> 
 
 2. bootswatch 이용하기 (index.html)
+   
    - [minty 테마](https://bootswatch.com/minty/)
    - nav 스타일 많이 참고
      <br/><br/>
+     
 3. keyup 이벤트 기능
+   
    - 입력창에 사용자 이름 입력하면 연관 사용자가 자동으로 뜬다
   <br/><br/>
-4. ajax 구현 (main.js) 
+  
+4. ajax 구현 (main.js)
+ 
    - OAuth Apps 통해서 Github 연동
-  <br/><br/>
-5. #profile (main.js)   
+  <br/><br>
+  
+5. #profile (main.js)
+     
    - 사용자 프로필 부분 구현
    - [Card 사용](https://getbootstrap.com/docs/5.3/components/card/) container 박스 구현
    - 그리드 시스템 사용 (3:9 비율)
@@ -53,41 +60,37 @@
    - [Badge 사용](https://getbootstrap.com/docs/5.3/components/badge/) badge 디자인 설정
    - [Buttons 사용](https://getbootstrap.com/docs/5.3/components/buttons/) button 디자인 설정
  <br/><br/>
+ 
 6. #repos (main.js)
+ 
    - Least Repository 부분 구현
    - 그리드 시스템 사용 (7:4:1 비율)
    - [Badge 사용](https://getbootstrap.com/docs/5.3/components/badge/) badge 디자인 설정
    - [Buttons 사용](https://getbootstrap.com/docs/5.3/components/buttons/) button 디자인 설정
 <br/><br/>
+
 7. style.css
+ 
    - 프로필 사진 크기 설정
    - profile, repos 여백 설정
-
-   
 <br/><br/> 
-   
 </div>
 <br/>  
 
 ### ◎ 영상화면
+<br/>
+
+#### - 화면확인
+  <br/>
+  
+![녹화_2023_08_31_18_26_14_132](https://github.com/luz315/goorm/assets/125282732/acf57b16-f83f-4f5a-a927-8319ad74b402)
+
 
 <br/>
-<div>
 
-1. 아무것도 입력하지 않고 버튼 클릭했을 경우에 뜨는 경고창 기능 구현
+#### - 버튼확인
 <br/>
-<img width="500" alt="image" src="https://github.com/luz315/goorm/assets/125282732/e8ef6903-45c8-499c-8aa5-9e912c897b58">
-<br/><br/><br/>
-2. 입력창에 할 일을 입력하면 등록되는 기능 구현
-<br/><br/>
-<img width="500" alt="image" src="https://github.com/luz315/goorm/assets/125282732/b618455c-c490-4d83-957b-7c50b33f6169">
-<br/><br/><br/>
-3. 할 일 끝마다 x 문자 넣기 (특수문자 \u00d7 사용)
-<br/><br/>
-4. checked 토글 만들기
-<br/><br/>
-5. x 문자 클릭하면 데이터 지워주는 기능 구현
-<br/><br/>
-6. localStorage와 saveData를 통해 새로고침되어도 데이터 유지해주는 기능 구현
+
+![녹화_2023_08_31_18_26_35_792](https://github.com/luz315/goorm/assets/125282732/85a87eb2-0bbe-4442-9da4-f8d292512148)
 
 
