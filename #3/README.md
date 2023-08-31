@@ -15,7 +15,7 @@
 <br/> 
 
 <img width="800" alt="image" src="https://github.com/luz315/goorm/assets/125282732/54547df7-358c-4975-9aa7-b52e2825a07d">
-<br/><br/>  
+
 
 <div>
 
@@ -29,42 +29,47 @@
    - 텍스트 구현
    - 사용자 이름 입력창 구현
   
-     * Ctrl + u : 코드 보기
-     * Ctrl + Shift + i : 콘솔창 보기
-     <br/> 
+  * Ctrl + u : 코드 보기
+  * Ctrl + Shift + i : 콘솔창 보기
+     <br/><br/> 
 
 2. bootswatch 이용하기 (index.html)
    - [minty 테마](https://bootswatch.com/minty/)
    - nav 스타일 많이 참고
-     <br/>
-
+     <br/><br/>
 3. keyup 이벤트 기능
    - 입력창에 사용자 이름 입력하면 연관 사용자가 자동으로 뜬다
-  
-   - 
-  
-4. #profile (main.js)   
-   - 흰색 배경에 앱 화면 구현
- 
-7. todo h2 (styles.css) 
-   - Todo 앱 아이콘, "Todos 앱" 글자 넣기 
-
-8. row 클래스
-   - 할 일 입력창 만들기 (styles.css - input)
-   - [추가] 버튼 만들기 (styles.css - button)
+  <br/><br/>
+4. ajax 구현 (main.js) 
+   - OAuth Apps 통해서 Github 연동
+  <br/><br/>
+5. #profile (main.js)   
+   - 사용자 프로필 부분 구현
+   - [Card 사용](https://getbootstrap.com/docs/5.3/components/card/) container 박스 구현
+   - 그리드 시스템 사용 (3:9 비율)
+   - 사용자 이름 구현
+   - 사용자 프로필 사진 구현
+   - [List group 사용](https://getbootstrap.com/docs/5.3/components/list-group/)사용자 정보 나열
+   - [Badge 사용](https://getbootstrap.com/docs/5.3/components/badge/) badge 디자인 설정
+   - [Buttons 사용](https://getbootstrap.com/docs/5.3/components/buttons/) button 디자인 설정
+ <br/><br/>
+6. #repos (main.js)
+   - Least Repository 부분 구현
+   - 그리드 시스템 사용 (7:4:1 비율)
+   - [Badge 사용](https://getbootstrap.com/docs/5.3/components/badge/) badge 디자인 설정
+   - [Buttons 사용](https://getbootstrap.com/docs/5.3/components/buttons/) button 디자인 설정
+<br/><br/>
+7. style.css
+   - 프로필 사진 크기 설정
+   - profile, repos 여백 설정
 
    
-   - 할 일 마다 클릭할 수 있는 아이콘 넣기 (checked.png & unchecked.png)
-   - line-through 사용해서 아이콘 뿐만 아니라 할 일을 완료했다는 표시 추가하기
-   - 맨 끝에 삽입된 x 문자에 호버 기능 구현
-<br/>
-   <img width="440" alt="image" src="https://github.com/luz315/goorm/assets/125282732/144c83c6-887a-4c72-80e5-f3f9b446fe7d">
 <br/><br/> 
    
 </div>
 <br/>  
 
-### ◎ script.js (Todo 기능 구현)
+### ◎ 영상화면
 
 <br/>
 <div>
