@@ -53,7 +53,7 @@ function initSpreadsheet() {
 
             if (j === 0) {
                 cellData = i;
-                isHeader = true; //첫 번째 row는 Header!
+                isHeader = true; 
                 disabled = true;
             }
 
@@ -80,7 +80,7 @@ function initSpreadsheet() {
 }
 
 function createCellEl(cell) {
-    // input 요소를 생성
+
     const cellEl = document.createElement("input");
     cellEl.className = "cell";
     cellEl.id = "cell_" + cell.row + cell.column;
@@ -103,30 +103,21 @@ function handleOnChange(data, cell) {
 }
 
 function handleCellClick(cell) {
-    // 이전의 하이라이트 된 부분 지워주기 
+
     clearHeaderActiveStates();
-    // 헤더들의 데이터 가져오기
+
     const columnHeader = spreadsheet[0][cell.column];
     const rowHeader = spreadsheet[cell.row][0];
-    // console.log('clicked cell', cell);
-    // console.log('column header', columnHeader);
-    // console.log('row header', rowHeader);
-    // 헤더들의 요소 반환하기
     const columnHeaderEl = getElFromRowCol(columnHeader.row, columnHeader.column);
     const rowHeaderEl = getElFromRowCol(rowHeader.row, rowHeader.column);
 
-    // active class 추가하기
     columnHeaderEl.classList.add('active');
     rowHeaderEl.classList.add('active');
     document.querySelector("#cell-status").innerHTML = cell.columnName + "-" + cell.rowName;
 }
 
 function clearHeaderActiveStates() {
-    // header class 로 가지고 있는 모든 요소를 리턴
     const headers = document.querySelectorAll(".active");
-    // console.log(Array.from(headers).map(h => console.log(h)));
-
-    // header 요소에서 active 클래스를 지우기
     headers.forEach(header => {
         header.classList.remove('active');
     })
