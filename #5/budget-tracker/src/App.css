@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+:root {
+  --primaryColor: #f15025;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGrey: #9e9e9e;
+  --mainRed: #d50000;
+  --mainGreen: #4caf50;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(205, 222, 221);
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  margin: 2rem 0;
+  padding-left: 3.5rem;
+  width: 90%;
+  color: black;
+  letter-spacing: 4px;
+}
+h2 {
+  margin: 1rem 0;
+  padding-right: 4rem;
+  text-align: right;
+  color: black;
+  letter-spacing: 2px;
+}
+.App {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+  background:white;
+  padding-bottom: 10rem;
+  border-radius: 2px;
+}
+.row {
+  display: flex;
+  padding: 0 1rem;
+}
+.col-sm {
+  padding: 1rem 0.75rem;
+  flex: 0 0 50%;
+}
+label {
+  display: block;
+  color: grey;
+  margin-top: 0.5rem;;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+.form-control {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid grey;
+  border-radius: 0;
+  outline: none;
+  height: 3rem;
+  width: 100%;
+  font-size: 16px;
+  margin: 5px 0 8px 0;
+  padding: 0;
+}
+.btn {
+  text-decoration: none;
+  color: white;
+  float: left;
+  background-color: green;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  outline: 0;
+  border: none;
+  border-radius: 2px;
+  display: block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 16px;
+  text-transform: uppercase;
+  margin-left: 1.5rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  float : none;  
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+.btn-icon {
+  margin-left: 0.75rem;
+  font-size: 1.2rem;
+}
+.btn1 {
+  text-decoration: none;
+  color: white;
+  float: left;
+  background-color: green;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  outline: 0;
+  border: none;
+  border-radius: 2px;
+  display: block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 16px;
+  text-transform: uppercase;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.btn1:hover {
+  transform: scale(1.1);
+}
+.list {
+  margin: 2rem 0.75rem 0 0.75rem;
+  list-style-type: none;
+  border: none;
+  padding: 0;
+}
+.item {
+  width: 708px;
+  background-color: white;
+  line-height: 1.5rem;
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  float : none;  
+  justify-content: space-between;
+  transition: all 0.15s linear;
+  
+}
+.item:hover {
+  transform: scale(1.05);
+}
+.info {
+  flex: 0 0 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.expense {
+  margin-right: 2rem;
+  text-transform: capitalize;
+}
+.cost {
+  font-weight: 300;
+  font-size: 1rem;
+  color: black;
+  border-radius: 2px;
+  padding: 1px 3px;
+}
+.clear-btn,
+.edit-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  outline: none;
+  cursor: pointer;
+}
+.clear-btn {
+  color: red;
+}
+.edit-btn {
+  color: green;
+}
+
+.alert {
+  padding: 0.75rem 1.25rem;
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  width: 90%;
+  margin: 2rem auto 0 auto;
+  border-radius: 2px;
+  text-transform: capitalize;
+}
+.alert-danger {
+  background: rgb(239, 120, 188);
+}
+.alert-success {
+  background: rgb(119, 169, 249);
+}
+@media screen and (min-width: 601px) {
+  .App,
+  .list,
+  .alert {
+    width: 85%;
+  }
+
+  .list {
+    margin-left: 1.5rem;
+  }
+}
+@media screen and (min-width: 993px) {
+  .App,
+  .list,
+  .alert {
+    width: 70%;
+  }
+  .list {
+    margin: 2rem auto 0 auto;
+  }
+  .info {
+    flex: 0 0 50%;
+  }
+}
