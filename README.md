@@ -16,8 +16,8 @@
 ### #5. [리액트를 이용해서 CRUD 앱 만들기](https://github.com/luz315/goorm/tree/main/%235)
 <br>
 
-### #6.
+### #6.[리액트를 이용해서 쇼핑몰 앱 만들기](https://github.com/luz315/goorm/tree/main/%236)
 <br>
 
-### #7.
+### #7.[자바를 이용해서 LinkedList 구현하기](https://github.com/luz315/goorm/tree/main/%237)
 <br>
